@@ -1,0 +1,41 @@
+.homepage-experience {
+  .homepage-experience-content {
+    max-width: 662px;
+    margin: 0 auto;
+    .experience-headline {
+      font-size: 35px;
+      color: rgb(51, 51, 51);
+      padding-top: 75px;
+      padding-bottom: 21px;
+      box-sizing: border-box;
+      .p-headline {
+        margin: 0;
+        font-weight: 700;
+      }
+    }
+    .experience-list {
+      list-style: none;
+      margin: 0 0 41px 0;
+      padding: 0;
+      .experience-list-item {
+        .p-year {
+          font-size: 15px;
+          color: rgb(132, 132, 132);
+          margin: 20px 0 0 0;
+        }
+        .p-company {
+          font-size: 17px;
+          font-weight: bold;
+          color: rgb(79, 79, 79);
+          margin: 0;
+        }
+        .p-position {
+          font-size: 15px;
+          color: rgb(132, 132, 132);
+          margin: 0;
+          line-height: 1.8em;
+        }
+      }
+    }
+  }
+}

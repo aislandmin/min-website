@@ -1,0 +1,55 @@
+.homepage-about {
+  .homepage-about-content {
+    max-width: 662px;
+    margin: 0 auto;
+    padding: 0;
+    height: 394px;
+
+    .greeting {
+      font-size: 17px;
+      color: rgb(78, 78, 78);
+      margin: 0;
+      padding: 107px 0 37px 0;
+      box-sizing: border-box;
+    }
+
+    .portrait-and-introduction {
+      display: flex;
+      align-items: center;
+
+      .head-portrait {
+        width: 84px;
+        height: 84px;
+        border-radius: 50%;
+        text-align: center;
+        overflow: hidden;
+
+        img {
+          height: 100%;
+        }
+      }
+
+      .introduction {
+        font-weight: 700;
+        color: rgb(51, 51, 51);
+        margin-left: 21px;
+        .p-first-line {
+          font-size: 24px;
+          margin: 0;
+        }
+        .p-second-line {
+          font-size: 37px;
+          margin: 0;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .profile {
+      font-size: 17px;
+      color: rgb(78, 78, 78);
+      margin-top: 37px;
+      margin-bottom: 37px;
+    }
+  }
+}
