@@ -1,0 +1,43 @@
+.homepage-footer {
+  background-image: url("./background_peony.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 446px;
+  margin-bottom: 122px;
+  position: relative;
+
+  .homepage-footer-mask {
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 100%;
+    height: 100%;
+  }
+
+  .homepage-footer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px white solid;
+    margin: 0 auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+    max-width: 612px;
+    height: 144px;
+    line-height: 134px;
+    text-align: center;
+    white-space: nowrap;
+
+    font-size: 35px;
+    font-weight: 900px;
+    color: white;
+    @media (min-width: 768px) and (max-width: 1150px) {
+      border: 3px white solid;
+      font-size: 25px;
+    }
+    @media (max-width: 768px) {
+      border: 2px white solid;
+      font-size: 20px;
+    }
+  }
+}

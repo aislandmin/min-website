@@ -1,0 +1,38 @@
+.homepage-header {
+  background-color: #f4f4f4;
+  .header-navigation {
+    max-width: 662px;
+    margin: 0 auto;
+    padding: 0;
+    height: 83px;
+    line-height: 83px;
+    list-style: none;
+    font-size: 16px;
+    .navigation-item {
+      display: inline-block;
+      margin-right: 80px;
+      color: rgb(132, 132, 132);
+      font-size: 16px;
+      button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        margin: 0;
+        font-size: inherit;
+        font-family: inherit;
+        color: rgb(132, 132, 132);
+        &:hover {
+          color: black;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      margin-left: 10px;
+      .navigation-item {
+        margin-right: 40px;
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
-.homepage-achievements {
-  .homepage-achievements-content {
+.homepage-skills {
+  .homepage-skills-content {
     max-width: 662px;
     margin: 0 auto;
-    .achievements-headline {
+    .skills-headline {
       font-size: 35px;
       color: rgb(51, 51, 51);
       padding-top: 75px;
@@ -10,16 +10,17 @@
       box-sizing: border-box;
       .p-headline {
         margin: 0;
+        font-weight: 700;
       }
     }
-    .achievements-list {
+    .skills-list {
       list-style: none;
-      margin: 0 0 41px 0;
+      margin: 0 0 100px 0;
       padding: 0;
-      .achievements-list-item {
-        .p-year-month {
+      .skills-list-item {
+        .p-category {
           font-size: 15px;
-            color: rgb(132, 132, 132);
+          color: rgb(132, 132, 132);
           margin: 20px 0 0 0;
         }
 
@@ -29,6 +30,11 @@
           margin: 0;
         }
       }
+    }
+  }
+  @media (max-width: 768px) {
+    .homepage-skills-content {
+      margin: auto 10px;
     }
   }
 }
