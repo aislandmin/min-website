@@ -40,6 +40,7 @@
       }
 
       .introduction {
+        flex: 1;
         font-weight: 700;
         color: rgb(51, 51, 51);
         margin-left: 21px;
@@ -87,7 +88,21 @@
 
   @media (max-width: 550px) {
     .background-name {
-      font-size: 98px;
+      top: 115px;
+      font-size: 80px;
+    }
+    .homepage-about-content {
+      margin: auto 10px;
+      .portrait-and-introduction {
+        .introduction {
+          .p-first-line {
+            font-size: 14px;
+          }
+          .p-second-line {
+            font-size: 20px;
+          }
+        }
+      }
     }
   }
 }
