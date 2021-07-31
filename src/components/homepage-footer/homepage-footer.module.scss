@@ -1,5 +1,5 @@
 .homepage-footer {
-  background-image: url("./background_peony.jpg");
+  background-image: url("http://localhost:3001/background_peony.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,6 +38,7 @@
     @media (max-width: 768px) {
       border: 2px white solid;
       font-size: 20px;
+      padding: 0 20px;
     }
   }
 }

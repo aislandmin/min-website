@@ -16,10 +16,7 @@ export default class HomepageHeader extends Component {
       <div className={styles["homepage-header"]}>
         <ul className={styles["header-navigation"]}>
           <li className={styles["navigation-item"]}>
-            <button
-              inline
-              onClick={() => this.scrollToAnchor("homepage-about", true)}
-            >
+            <button onClick={() => this.scrollToAnchor("homepage-about", true)}>
               About
             </button>
           </li>
