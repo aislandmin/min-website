@@ -19,11 +19,11 @@ export default function HomepageAbout(props) {
           </div>
         </div>
         <p className={styles["profile"]}>
-          Xiaomin is an associate, enthusiastic and highly motivated developer with passion
-          and experience in efficiently coding websites and
+          Xiaomin is an associate, enthusiastic and highly motivated developer
+          with passion and experience in efficiently coding websites and
           applications using modern HTML, CSS, JavaScript, React.js, Node.js.
-          Translate designs to front-end code. Eager to embrace challenges and
-          learn more. Excited to bring my skills to a new environment as a
+          Translate UI/UX designs to front-end code. Eager to embrace challenges
+          and learn more. Excited to bring skills to a new environment as a
           frontend developer.
         </p>
         <wavy></wavy>
