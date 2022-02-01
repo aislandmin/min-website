@@ -14,7 +14,7 @@ export default function HomepageExperiences(props) {
         <ul className={styles["experiences-list"]}>
           <li className={styles["experiences-list-item"]}>
             <p className={styles["p-year"]}>April 2020 - Present</p>
-            <p className={styles["p-company"]}>Flashcodings</p>
+            <p className={styles["p-company"]}>Flashcoding</p>
             <p className={styles["p-position"]}>
               Front End Development Engineer
             </p>
@@ -32,7 +32,8 @@ export default function HomepageExperiences(props) {
             <p className={styles["p-year"]}>July 2006 - September 2018</p>
             <p className={styles["p-company"]}>ZTE Corporation</p>
             <p className={styles["p-position"]}>
-              Senior Software Development Engineer, Business Analyst
+              Front End Development Engineer, Senior Software Development
+              Engineer, Business Analyst
             </p>
           </li>
 

@@ -14,11 +14,6 @@ export default function HomepageAchievements(props) {
         </div>
         <ul className={styles["achievements-list"]}>
           <li className={styles["achievements-list-item"]}>
-            <p className={styles["p-year-month"]}>December 2019</p>
-            <p className={styles["p-company"]}>Seneca College</p>
-            <p className={styles["p-description"]}>President's Honour List</p>
-          </li>
-          <li className={styles["achievements-list-item"]}>
             <p className={styles["p-year-month"]}>2006 - 2018</p>
             <p className={styles["p-company"]}>ZTE Corporation</p>
             <p className={styles["p-description"]}>Innovation pioneer</p>
