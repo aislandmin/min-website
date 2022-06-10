@@ -20,15 +20,6 @@ export default function HomepageExperiences(props) {
             </p>
           </li>
           <li className={styles["experiences-list-item"]}>
-            <p className={styles["p-year"]}>June 2019 - March 2020</p>
-            <p className={styles["p-company"]}>
-              Redstone Consulting Service Corporation
-            </p>
-            <p className={styles["p-position"]}>
-              Front End Development Engineer
-            </p>
-          </li>
-          <li className={styles["experiences-list-item"]}>
             <p className={styles["p-year"]}>July 2006 - September 2018</p>
             <p className={styles["p-company"]}>ZTE Corporation</p>
             <p className={styles["p-position"]}>
